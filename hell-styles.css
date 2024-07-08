@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+}
+
+.body-activated {
+  background-color: rgb(78, 0, 0);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px
+}
+
+.sell-button, .sell-button-activated {
+  color: black;
+  background-color: white;
+  border: 7px black solid;
+  border-radius: 40px;
+  padding: 35px;
+  font-size: 27px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-bottom: 30px;
+}
+
+.sell-button:hover {
+  opacity: 0.7;
+}
+
+.sell-button:active {
+  opacity: 0.4;
+}
+
+.sell-button-activated {
+  color: white;
+  background-color: rgb(82, 0, 0);
+}
+
+.empty-div {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.empty-div-activated {
+  opacity: 1;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+  border-radius: 20px;
+}
